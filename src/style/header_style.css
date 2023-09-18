@@ -1,0 +1,93 @@
+/* Default styles for larger screens */
+@media screen and (min-width: 3500px) {
+    #nav-wrap {
+        background-color: transparent;
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 20px;
+      }
+      
+      .mobile-btn {
+        display: none;
+      }
+      
+      #nav {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      
+      #nav li {
+        display: inline;
+        margin-right: 20px;
+      }
+      
+      .banner {
+        text-align: center;
+        padding: 100px 0;
+      }
+      
+      .carousel-image {
+        max-width: 100%;
+      }
+  }
+
+  
+  /* Media Query for Tablets and Smaller Desktops */
+  @media (max-width: 992px) {
+    #nav-wrap {
+      background-color: #333; /* Change background color for mobile menu */
+      width: 100%;
+      height: auto;
+      padding: 10px 0;
+      text-align: center;
+    }
+  
+    .mobile-btn {
+      display: inline-block;
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      color: #fff;
+      font-size: 20px;
+      text-decoration: none;
+      cursor: pointer;
+    }
+  
+    #nav {
+      display: none;
+      text-align: center;
+    }
+  
+    #nav.active {
+      display: block;
+    }
+  
+    #nav li {
+      display: block;
+      margin-bottom: 10px;
+    }
+  
+    .banner {
+      padding: 50px 0;
+    }
+  }
+  
+  /* Media Query for Mobile Phones */
+  @media (max-width: 768px) {
+    #nav-wrap {
+      padding: 5px 0;
+    }
+  
+    #nav li {
+      font-size: 18px;
+    }
+    
+    .banner {
+      padding: 30px 0;
+    }
+  }
+  
+  /* Additional Media Queries for Smaller Screens can be added as needed */
+  

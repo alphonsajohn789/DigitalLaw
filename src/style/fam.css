@@ -1,0 +1,22 @@
+#fam {
+    background-color: black;
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+    
+    height: 100vh;
+    text-align: justify;
+}
+
+#title{
+    color: white;
+    text-align: center;
+}
+
+#center-container-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  

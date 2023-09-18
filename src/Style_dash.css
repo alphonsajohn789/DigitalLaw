@@ -1,0 +1,107 @@
+.dash_class, .users_view {
+    background-image: url('img/bg.jpg');
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+    height: 100vh;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the counter cards */
+  .card {
+    
+    text-align: center;
+    background-color: #f1f1f1;
+    width: 400px;
+  }
+
+  
+
+  
+
+  .dash_footer {
+    padding-left: 40rem;
+    padding-top: 5rem;
+  }
+  .a{
+    color: white;
+  }
+
+  .custom-table {
+    border-collapse: collapse;
+    width: 80%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center-align the table horizontally */
+    background-color: #fff;
+}
+
+.custom-table th, .custom-table td {
+    border: 1px solid #090909; /* Add borders to table cells */
+    padding: 8px;
+    text-align: left;
+    color: #090909;
+}
+
+.custom-table th {
+    background-color: #fff; /* Add a background color to table headers */
+}
+
+.center {
+  text-align: center;
+  margin-top: 50px; /* Adjust this value to control the vertical alignment */
+ 
+}
+
+.center a {
+  color: white;
+  text-decoration: none; /* Optional: Remove underline from the link */
+  font-weight: bold;
+}
+
+/* Add this CSS to your stylesheet */
+.dash_class {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Optionally, set a specific height for centering vertically */
+}
+
+/* Center the items inside .dash_cards */
+.dash_cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Add this CSS to your stylesheet */
+.dash_footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 20px; /* Adjust the margin as needed */
+}
+
+/* Center the buttons horizontally within .dash_footer */
+
+
+/* Set text color to white for the link inside the button */
+.dash_footer button a {
+  color: white;
+  text-decoration: none; /* Remove underline for the link */
+}
+

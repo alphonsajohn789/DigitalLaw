@@ -1,0 +1,21 @@
+footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+    padding: 20px; /* Adjust the padding as needed */
+  }
+  
+  /* Add any additional styles you need for your footer elements */
+  
+  .social-links {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .copyright {
+    list-style: none;
+    padding: 0;
+  }
+  
+  

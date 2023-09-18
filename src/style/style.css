@@ -1,0 +1,80 @@
+.form{
+    background-image: url('../img/bg.jpg');
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+    
+}
+
+label{
+    margin-top: 0.5rem;
+    font-size: small;
+    color: white;
+}
+
+input[type=text], input[type=email], input[type=password], select{
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+   
+    width: 300px;
+    
+    background-color: white;
+}
+
+input[type=text], input[type=email], input[type=password], select:focus{
+    background-color: white;
+  }
+
+  
+.button{
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid gray;
+    background: green;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    justify-items: flex-start;
+    width: auto;
+    padding: 30px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+}
+
+.error{
+    color: red;
+}
+
+.success{
+    color: green;
+}
+
+.users_view {
+    background-image: url('../img/bg.webp');
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+    
+      height: 100vh;
+}
+
+.users_head {
+    padding-left: 40rem;
+}
+
+
