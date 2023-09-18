@@ -1,8 +1,9 @@
 {
+  "homepage": "https://alphonsajohn789.github.io/DigitalLaw/",
   "name": "reactniceresume",
   "version": "0.1.0",
   "private": true,
-  "homepage": "./",
+  
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@tensorflow-models/qna": "^1.0.2",
@@ -31,7 +32,9 @@
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -52,6 +55,7 @@
     ]
   },
   "devDependencies": {
-    "chokidar": "^3.5.1"
+    "chokidar": "^3.5.1",
+    "gh-pages": "^6.0.0"
   }
 }
