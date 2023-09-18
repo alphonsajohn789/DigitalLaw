@@ -79,7 +79,7 @@ class App extends Component {
       <div>
       {/* <BrowserRouter> */}
         <Routes>
-         <Route path="/" element={<><Header data={this.state.resumeData.main}/> <About data={this.state.resumeData.main}/> <Contact data={this.state.resumeData.main} />
+         <Route path="" element={<><Header data={this.state.resumeData.main}/> <About data={this.state.resumeData.main}/> <Contact data={this.state.resumeData.main} />
         <Footer data={this.state.resumeData.main} /></> } />
         
           <Route path = "/search" element={<Search/>} />
@@ -105,7 +105,7 @@ class App extends Component {
           <Route path = "/Intellectual" element={<Intellectual/>} />
           <Route path = "/NatCivil" element={<NatCivil/>} />
           <Route path = "/Civil" element={<Civil/>} />
-          <Route path = "/About" element={<About/>} />
+          
           
         </Routes>
       {/* </BrowserRouter> */}
