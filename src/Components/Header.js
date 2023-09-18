@@ -43,7 +43,7 @@ class Header extends Component {
             </li>
 
             <li>
-               <a  href='/register'>
+               <a  href='#/register'>
                 Register
               </a> 
 
