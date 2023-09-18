@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/DigitalLaw/static/css/main.cb358e91.chunk.css",
-    "main.js": "/DigitalLaw/static/js/main.e25e1022.chunk.js",
-    "main.js.map": "/DigitalLaw/static/js/main.e25e1022.chunk.js.map",
+    "main.js": "/DigitalLaw/static/js/main.5076a00f.chunk.js",
+    "main.js.map": "/DigitalLaw/static/js/main.5076a00f.chunk.js.map",
     "runtime-main.js": "/DigitalLaw/static/js/runtime-main.8a3564fe.js",
     "runtime-main.js.map": "/DigitalLaw/static/js/runtime-main.8a3564fe.js.map",
     "static/css/2.e1badf7f.chunk.css": "/DigitalLaw/static/css/2.e1badf7f.chunk.css",
@@ -22,6 +22,6 @@
     "static/css/2.e1badf7f.chunk.css",
     "static/js/2.b0bec824.chunk.js",
     "static/css/main.cb358e91.chunk.css",
-    "static/js/main.e25e1022.chunk.js"
+    "static/js/main.5076a00f.chunk.js"
   ]
 }
