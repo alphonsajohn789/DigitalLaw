@@ -33,6 +33,7 @@ import NatIntellectual from "./Intellectual/NatIntellectual";
 import Civil from "./Civil/Civil";
 import NatCivil from "./Civil/NatCivil";
 
+
 class App extends Component {
   constructor(props) {
     super(props);
@@ -104,6 +105,7 @@ class App extends Component {
           <Route path = "/Intellectual" element={<Intellectual/>} />
           <Route path = "/NatCivil" element={<NatCivil/>} />
           <Route path = "/Civil" element={<Civil/>} />
+          <Route path = "/About" element={<About/>} />
           
         </Routes>
       {/* </BrowserRouter> */}

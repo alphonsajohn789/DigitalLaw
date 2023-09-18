@@ -4,6 +4,8 @@ import React, { Component } from "react";
 import Carousel from 'react-grid-carousel';
 import { Link } from "react-router-dom";
 import '../style/header_style.css';
+import { NavLink } from 'react-router-dom';
+
 class Header extends Component {
   render() {
     if (!this.props.data) return null;
@@ -29,9 +31,13 @@ class Header extends Component {
             </li>
 
             <li>
-              <a className="smoothscroll" href="#/about">
-                About
-              </a>
+            <NavLink
+      to="/About"
+      className="smoothscroll"
+      
+    >
+      About
+    </NavLink>
             </li>
 
            
