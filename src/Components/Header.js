@@ -65,39 +65,39 @@ class Header extends Component {
             <Carousel.Item>
               <img className='carousel-image' src='./images/family_law.jpg' alt='Item 1'  />
              
-              <a href='/Natural' >Family Law </a> <br/>
-              <a href='/FamilyLaw' >View Details </a>
+              <a href='#/Natural' >Family Law </a> <br/>
+              <a href='#/FamilyLaw' >View Details </a>
               
             </Carousel.Item>
             <Carousel.Item>
               <img className='carousel-image' src='./images/charity_law.png' alt='Item 3' />
-              <a href='/NatCharity' >Charity Law </a>  <br/>
-              <a href='/CharityLaw' >View Details </a>
+              <a href='#/NatCharity' >Charity Law </a>  <br/>
+              <a href='#/CharityLaw' >View Details </a>
             </Carousel.Item>
             <Carousel.Item>
               <img className='carousel-image' src='./images/business_law.jpg' alt='Item 4' />
-              <a href='/NatBusiness' >Business Law </a>  <br/>
-              <a href='/Business' >View Details </a>
+              <a href='#/NatBusiness' >Business Law </a>  <br/>
+              <a href='#/Business' >View Details </a>
             </Carousel.Item>
             <Carousel.Item>
               <img className='carousel-image' src='./images/criminal_law.jpg' alt='Item 5' />
-              <a href='/NatCriminal' >Criminal Law </a> <br/>
-              <a href='/Criminal' >View Details </a>
+              <a href='#/NatCriminal' >Criminal Law </a> <br/>
+              <a href='#/Criminal' >View Details </a>
             </Carousel.Item>
             <Carousel.Item>
               <img className='carousel-image' src='./images/human_rights.webp' alt='Item 6' />
-              <a href='/NatHuman' >Human Rights Law </a> <br/>
-              <a href='/Human' >View Details </a>
+              <a href='#/NatHuman' >Human Rights Law </a> <br/>
+              <a href='#/Human' >View Details </a>
             </Carousel.Item>
             <Carousel.Item>
               <img className='carousel-image' src='./images/property_law.jpg' alt='Item 7' />
-              <a href='/NatIntellectual' >Intellectual Property Law </a> <br/>
-              <a href='/Intellectual' >View Details </a>
+              <a href='#/NatIntellectual' >Intellectual Property Law </a> <br/>
+              <a href='#/Intellectual' >View Details </a>
             </Carousel.Item>
             <Carousel.Item>
               <img className='carousel-image' src='./images/civil_law.jpg' alt='Item 2' />
-             <br /> <a href='/NatCivil' >Civil Litigation Dispute Resolution Law </a>  <br/>
-              <a href='/Civil' >View Details </a>
+             <br /> <a href='#/NatCivil' >Civil Litigation Dispute Resolution Law </a>  <br/>
+              <a href='#/Civil' >View Details </a>
             </Carousel.Item>
           </Carousel>
         </div>
