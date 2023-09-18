@@ -29,7 +29,7 @@ class Header extends Component {
             </li>
 
             <li>
-              <a className="smoothscroll" href="#about">
+              <a className="smoothscroll" href="/#about">
                 About
               </a>
             </li>
