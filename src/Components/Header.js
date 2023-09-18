@@ -75,27 +75,27 @@ class Header extends Component {
               <a href='/CharityLaw' >View Details </a>
             </Carousel.Item>
             <Carousel.Item>
-              <img className='carousel-image' src='/images/business_law.jpg' alt='Item 4' />
+              <img className='carousel-image' src='./images/business_law.jpg' alt='Item 4' />
               <a href='/NatBusiness' >Business Law </a>  <br/>
               <a href='/Business' >View Details </a>
             </Carousel.Item>
             <Carousel.Item>
-              <img className='carousel-image' src='/images/criminal_law.jpg' alt='Item 5' />
+              <img className='carousel-image' src='./images/criminal_law.jpg' alt='Item 5' />
               <a href='/NatCriminal' >Criminal Law </a> <br/>
               <a href='/Criminal' >View Details </a>
             </Carousel.Item>
             <Carousel.Item>
-              <img className='carousel-image' src='/images/human_rights.webp' alt='Item 6' />
+              <img className='carousel-image' src='./images/human_rights.webp' alt='Item 6' />
               <a href='/NatHuman' >Human Rights Law </a> <br/>
               <a href='/Human' >View Details </a>
             </Carousel.Item>
             <Carousel.Item>
-              <img className='carousel-image' src='/images/property_law.jpg' alt='Item 7' />
+              <img className='carousel-image' src='./images/property_law.jpg' alt='Item 7' />
               <a href='/NatIntellectual' >Intellectual Property Law </a> <br/>
               <a href='/Intellectual' >View Details </a>
             </Carousel.Item>
             <Carousel.Item>
-              <img className='carousel-image' src='/images/civil_law.jpg' alt='Item 2' />
+              <img className='carousel-image' src='./images/civil_law.jpg' alt='Item 2' />
              <br /> <a href='/NatCivil' >Civil Litigation Dispute Resolution Law </a>  <br/>
               <a href='/Civil' >View Details </a>
             </Carousel.Item>
