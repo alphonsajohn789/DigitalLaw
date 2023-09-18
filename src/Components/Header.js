@@ -51,7 +51,7 @@ class Header extends Component {
             </li>
 
             <li>
-            <a  href='/login'>
+            <a  href='#/login'>
                 Login
               </a>
             </li>
