@@ -28,19 +28,7 @@ class Header extends Component {
               </a>
             </li>
 
-            <li hidden>
-              <a className="smoothscroll" href="#about">
-                About
-              </a>
-            </li>
-
-           
-
-            <li hidden>
-              <a className="smoothscroll" href="#contact">
-                Contact
-              </a>
-            </li>
+            
 
             <li>
                <a  href='#/register'>
