@@ -4,9 +4,10 @@ import * as tf from '@tensorflow/tfjs';
 import * as qna from '@tensorflow-models/qna';
 import 'react-loader-spinner/dist/loader/css/react-spinner-loader.css';
 import Loader from 'react-loader-spinner';
+import { useNavigate } from 'react-router-dom';
 
 const NatCharity = () => {
-    
+  const navigate = useNavigate();
   const passageRef = useRef(null);
   const questionRef = useRef(null);
   const [answer, setAnswer] = useState(null);
@@ -87,7 +88,7 @@ const NatCharity = () => {
             {loading ? (
               <Loader type="ThreeDots" color="#00BFFF" height={40} width={40} />
             ) : (
-              <div>Response: {answer} <br/><a href='http://localhost:3000/' >Go Back </a> </div>
+              <div>Response: {answer} <br/><button onClick={() => navigate(-1)}>Go back</button> </div>
               
             
             )}
