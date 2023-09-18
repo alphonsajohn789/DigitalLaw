@@ -63,14 +63,14 @@ class Header extends Component {
           <div style={{ width: '80vw'}}>
           <Carousel cols={4} rows={1} gap={5} loop>
             <Carousel.Item>
-              <img className='carousel-image' src='/images/family_law.jpg' alt='Item 1'  />
+              <img className='carousel-image' src='./images/family_law.jpg' alt='Item 1'  />
              
               <a href='/Natural' >Family Law </a> <br/>
               <a href='/FamilyLaw' >View Details </a>
               
             </Carousel.Item>
             <Carousel.Item>
-              <img className='carousel-image' src='/images/charity_law.png' alt='Item 3' />
+              <img className='carousel-image' src='./images/charity_law.png' alt='Item 3' />
               <a href='/NatCharity' >Charity Law </a>  <br/>
               <a href='/CharityLaw' >View Details </a>
             </Carousel.Item>
