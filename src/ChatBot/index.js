@@ -28,32 +28,32 @@ manager.addAnswer("en", "thank", "You are Welcome!");
 manager.addAnswer(
   "en",
   "family.law",
-  "please navigate to family law page from practices for more details"
+  "please navigate to family law page for more details"
 );
 manager.addAnswer(
   "en",
   "injury.law",
-  "please navigate to personal Injury Details law page from practices for more details"
+  "please navigate to personal Injury Details law page  for more details"
 );
 manager.addAnswer(
   "en",
   "criminal.law",
-  "please navigate to criminal law page from practices for more details"
+  "please navigate to criminal law page for more details"
 );
 manager.addAnswer(
   "en",
   "business.law",
-  "please navigate to business law page from practices for more details"
+  "please navigate to business law page  for more details"
 );
 manager.addAnswer(
   "en",
   "education.law",
-  "please navigate to education law page from practices for more details"
+  "please navigate to education law page  for more details"
 );
 manager.addAnswer(
   "en",
   "real.law",
-  "please navigate to real estate law page from practices for more details"
+  "please navigate to real estate law page for more details"
 );
 //train model
 manager.train().then(async () => {

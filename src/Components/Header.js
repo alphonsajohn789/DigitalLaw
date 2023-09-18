@@ -28,15 +28,15 @@ class Header extends Component {
               </a>
             </li>
 
-            <li>
-              <a className="smoothscroll" href="about">
+            <li hidden>
+              <a className="smoothscroll" href="#about">
                 About
               </a>
             </li>
 
            
 
-            <li>
+            <li hidden>
               <a className="smoothscroll" href="#contact">
                 Contact
               </a>
@@ -110,6 +110,7 @@ class Header extends Component {
           </a>
         </p>
       </header>
+      
     );
   }
 }
